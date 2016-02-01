@@ -1,0 +1,17 @@
+{
+  "name": "tara-lerias-dot-com",
+  "version": "0.0.1",
+  "description": "Portfolio Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "gulp test",
+    "start": "node server.js"
+  },
+  "author": "tlerias",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "lodash": "^4.1.0",
+    "path": "^0.12.7"
+  }
+}
