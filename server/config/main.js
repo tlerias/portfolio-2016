@@ -6,13 +6,7 @@ var rootPath = path.normalize(__dirname + '/../..');
 
 module.exports = {
   root: rootPath,
-  ip: '0.0.0.0',
-  port: process.env.PORT || 9000,
-  mongo: {
-    options: {
-      db: {
-        safe: true
-      }
-    }
-  }
+  ip: process.env.IP ||
+        '0.0.0.0',
+  port: process.env.PORT || 8080
 };
