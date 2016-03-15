@@ -1,0 +1,24 @@
+{
+  "name": "tara-lerias-dot-com",
+  "description": "Portfolio Website",
+  "main": "server.js",
+  "authors": [
+    "tlerias"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/tlerias/portfolio-2016",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1"
+  }
+}
